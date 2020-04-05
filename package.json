@@ -1,10 +1,11 @@
 {
-  "name": "apollo-now",
+  "name": "digimon-graphql",
   "version": "1.0.0",
-  "description": "apollo-server with now deployment",
+  "description": "Digimon GraphQL API",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index",
+    "dev": "nodemon src/index"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "dependencies": {
     "apollo-server": "^2.9.15",
     "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }

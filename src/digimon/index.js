@@ -1,5 +1,5 @@
 const freshes = require('./freshes')
-const intrainings = require('./intrainings')
+const inTrainings = require('./inTrainings')
 const rookies = require('./rookies')
 const champions = require('./champions')
 const ultimates = require('./ultimates')
@@ -7,7 +7,7 @@ const megas = require('./megas')
 
 const digimon = [
   ...freshes,
-  ...intrainings,
+  ...inTrainings,
   ...rookies,
   ...champions,
   ...ultimates,

@@ -7,7 +7,9 @@ const typeDefs = gql`
     level: String,
     img: String,
     description: String,
-    type: Type
+    type: Type,
+    dedigivolution: Digimon,
+    digivolution: Digimon
   }
 
   type Query {

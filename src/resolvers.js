@@ -3,8 +3,8 @@ const resolvers = {
     getDigimons: (parent, args, { dataSources }, info) => dataSources.digimon,
   },
   Digimon: {
-    dedigivolution: ({ dedigivolution }, args, { dataSources }, info) => dataSources.digimon.find(digi => dedigivolution === digi.id),
-    digivolution: ({ digivolution }, args, { dataSources }, info) => dataSources.digimon.find(digi => digivolution === digi.id)
+    dedigivolutions: ({ dedigivolutions }, args, { dataSources }, info) => dataSources.digimon.filter(digi => Array.isArray(dedigivolutions) && dedigivolutions.includes(digi.id)),
+    digivolutions: ({ digivolutions }, args, { dataSources }, info) => dataSources.digimon.filter(digi => Array.isArray(digivolutions) && digivolutions.includes(digi.id))
   }
 }
 

@@ -7,9 +7,9 @@ const typeDefs = gql`
     level: String,
     img: String,
     description: String,
-    type: Type,
-    dedigivolution: Digimon,
-    digivolution: Digimon
+    types: [Type],
+    dedigivolutions: [Digimon],
+    digivolutions: [Digimon]
   }
 
   type Query {
@@ -17,6 +17,7 @@ const typeDefs = gql`
   }
 
   enum Type {
+    Free
     Virus
     Vaccine
     Data

@@ -13,7 +13,9 @@ const rookies = [
       'd9d594d2-76f4-11ea-bc55-0242ac130003'
     ],
     digivolutions: [
-      'bb2781c0-76f5-11ea-bc55-0242ac130003'
+      'bb2781c0-76f5-11ea-bc55-0242ac130003',
+      '348d88f4-6fef-420b-83c1-01c314c8ad7f',
+      'a9a19861-3cea-45d4-a09b-c4b85a93bb82'
     ]
   },
   {
@@ -33,13 +35,18 @@ const rookies = [
     id: '499a38f1-dabc-4058-b925-4408b99862e6',
     name: 'Black Agumon',
     level: 'Rookie',
-    img: 'https://digimon.shadowsmith.com/img/black-agumon.jpg',
-    description: `BlackAgumon is a Reptile Digimon. It has grown up and become able to walk on two legs, and has an appearance like a tiny dinosaur. Because it is still on the way to adulthood, its power is low, but as its personality is quite ferocious, it doesn't understand fear. It has grown hard, sharp claws on its hands and feet, and demonstrates its power in battle. It is also a being that foretells digivolution to a great and powerful Digimon.`,
+    img: 'https://digimon.shadowsmith.com/img/blackagumon.jpg',
+    description: `Black Agumon is a Reptile Digimon. It has grown up and become able to walk on two legs, and has an appearance like a tiny dinosaur. Because it is still on the way to adulthood, its power is low, but as its personality is quite ferocious, it doesn't understand fear. It has grown hard, sharp claws on its hands and feet, and demonstrates its power in battle. It is also a being that foretells digivolution to a great and powerful Digimon.`,
     types: [
       'Virus'
     ],
     dedigivolutions: [
       'd9d594d2-76f4-11ea-bc55-0242ac130003'
+    ],
+    digivolutions: [
+      '1ec3829a-63af-4373-bcc9-7c032a5cd5e2',
+      '4e7665c7-5358-4a10-b0c1-391d4459403e',
+      'b206a71e-ecfb-4acf-8a77-ea3519ee2856'
     ]
   },
   {

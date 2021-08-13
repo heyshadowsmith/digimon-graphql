@@ -13,7 +13,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    getDigimons: [Digimon]
+    digimon: [Digimon]
   }
 
   enum Type {
